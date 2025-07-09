@@ -35,12 +35,12 @@ public class Login_Objetos {
                 accesoObjetos.accesoLo(accesoObjetos);
                 break;
             }else{
-                System.out.println("Que paso mi master?");
+                System.out.println("Error, usuario o contraseña incorreta");
             }
             intentos++;
             
         }while(intentos<3);
-        
+        //solo tendra 3 intentos de usuario, caso contrario le saldra error y terminara el programa
         
         System.out.println("*****Menu*****");
         System.out.println("1. Operaciones matematicas");
@@ -83,7 +83,7 @@ public class Login_Objetos {
                 System.out.println("El resultado de la operacion "+opcion2+" es "+operacionesmatematicas.getResultado());
                 break;
             case 2:
-                System.out.println("XD");
+                System.out.println("No hay nada");
                 break;
             default:
         }

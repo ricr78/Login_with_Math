@@ -48,6 +48,7 @@ public class Login_Objetos {
         System.out.print("Ingrese una opcion: ");
         int opcion = sc.nextInt();
         sc.nextLine();
+        // este codigo permite obtener el caso para indagar con el mini programa, cuando se haya logueado este le preguntara las operaciones que desee
         switch(opcion){
             case 1:
                 System.out.print("Ingrese el primer numero: ");

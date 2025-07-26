@@ -56,6 +56,7 @@ public class Login_Objetos {
                 operacionesmatematicas.setNum1(num1);
                 System.out.print("Ingrese el segundo numero: ");
                 int num2 = sc.nextInt();
+                //llamando al objeto con cada número que corresponde
                 operacionesmatematicas.setNum2(num2);
                 System.out.println("****MENU****");
                 System.out.println("1. suma");

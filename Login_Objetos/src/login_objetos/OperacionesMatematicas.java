@@ -36,7 +36,7 @@ public class OperacionesMatematicas {
     public void setResultado(int resultado) {
         this.resultado = resultado;
     }
-    
+    //llamando al objeto para el metodo de suma, utilizando el objeto y que me retorne el mismo objeto
     public void setSuma(OperacionesMatematicas operacionesmatematicas){
         resultado = operacionesmatematicas.getNum1()+operacionesmatematicas.getNum2();
     }

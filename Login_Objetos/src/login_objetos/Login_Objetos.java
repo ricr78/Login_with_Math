@@ -31,6 +31,7 @@ public class Login_Objetos {
             System.out.print("Ingrese la clave: ");
             clave = sc.nextLine();
             accesoObjetos.setClave(clave);
+            //predeterminado para ir a buscar si existe el usuario creado
             if(usuario.equals("TuUsuario") && clave.equals("123")){
                 accesoObjetos.accesoLo(accesoObjetos);
                 break;
@@ -93,3 +94,4 @@ public class Login_Objetos {
     }
     
 }
+

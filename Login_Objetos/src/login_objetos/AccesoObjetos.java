@@ -29,7 +29,7 @@ public class AccesoObjetos {
         this.clave = Clave;
     }
    
-    
+    // metodo para llamar el objeto y devolver el objeto 
     public void accesoLo(AccesoObjetos accesoObjetos){
         if(accesoObjetos.usuario.equals(usuario) && accesoObjetos.clave.equals(clave)){
             System.out.println("Bienvenido al sistema colega");
@@ -48,3 +48,4 @@ public class AccesoObjetos {
     
     
 }
+

@@ -40,7 +40,7 @@ public class OperacionesMatematicas {
     public void setSuma(OperacionesMatematicas operacionesmatematicas){
         resultado = operacionesmatematicas.getNum1()+operacionesmatematicas.getNum2();
     }
-    
+    // Operaciones matemáticas
     public void setResta(OperacionesMatematicas operacionesmatematicas){
         resultado = operacionesmatematicas.getNum1()-operacionesmatematicas.getNum2();
     }
@@ -59,3 +59,4 @@ public class OperacionesMatematicas {
         return operacionesmatematicas;
     }
 }
+
